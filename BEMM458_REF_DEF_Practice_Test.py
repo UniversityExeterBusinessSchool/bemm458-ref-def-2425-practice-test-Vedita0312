@@ -59,6 +59,7 @@ location_list = [
 
 # List of (start, end) positions where keywords occur
 location_list
+# OUTPUT: [(234, 243), (340, 350)]
 
 ########################################################################################################################################################
 # Question 2 - Metrics Function for Business Intelligence
@@ -120,7 +121,11 @@ print("Churn Rate (%):", cr)
 print("Customer Lifetime Value:", clv)
 print("Cost Per Acquisition:", cpa)
 
-
+# OUTPUT:
+# Gross Profit Margin (%): 71.42857142857143
+# Churn Rate (%): 2.857142857142857
+# Customer Lifetime Value: 63
+# Cost Per Acquisition: 10.0
 ########################################################################################################################################################
 # Question 3 - Linear Regression for Pricing Strategy
 # A bakery is studying how price affects cupcake demand. Below is a table of past pricing decisions and customer responses.
@@ -165,6 +170,10 @@ print("Linear regression equation: demand = {:.2f} * price + {:.2f}".format(a, b
 print("Best price for maximum demand: £{}".format(best_price))
 print("Predicted demand at £25:", round(predicted_demand_25))
 
+# OUTPUT:
+# Linear regression equation: demand = -9.29 * price + 273.57
+# Best price for maximum demand: £8
+# Predicted demand at £25: 41
 ########################################################################################################################################################
 # Question 4 - Debugging and Chart Creation
 # The following code is intended to generate 100 random integers between 1 and your SID, and plot them as a scatter plot.
